@@ -7,6 +7,12 @@ var app = new EmberApp({
     paths: [
       'bower_components/semantic-ui'
     ]
+  },
+
+  SemanticUI: {
+    css: false,
+    javascript: true,
+    fonts: true
   }
 });
 
